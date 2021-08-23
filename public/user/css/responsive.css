@@ -1,0 +1,152 @@
+@media only screen and (min-width: 1500px){
+    .container{
+        max-width:1440px ;
+    }
+
+}
+@media only screen and (max-width: 1199.98px){
+    nav .menu li{
+        padding: 0 0.5rem;
+    }
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin-bottom: 1rem;
+    }
+
+
+}
+@media only screen and (max-width: 991.98px){
+    .advantages .benefits{
+        margin-top: 1.5rem;
+    }
+    .nav-head.mobile{
+        background: #ffffff;
+        color: #2C4C9A;
+        text-align: center;
+    }
+    .nav-head.mobile .actions{
+        margin: 1rem 0;
+        padding: 0.5rem 0;
+        border-top: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        justify-content: center;
+    }
+
+    .nav-head.mobile a{
+        color: #393939;
+    }
+    .nav-head.mobile a img{
+        filter: brightness(0.39);
+    }
+    nav .menu{
+        text-align: center;
+    }
+    nav .menu li{
+        padding: 0.3rem 0;
+    }
+    #navbar .tel{
+        display: none;
+    }
+    nav a.tel{
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .navbar-toggler .close{
+        display: none;
+    }
+    .navbar-toggler[aria-expanded=true] .burger{
+        display: none;
+    }
+    .navbar-toggler[aria-expanded=true] .close{
+        display: block;
+    }
+    section{
+        padding-top: 80px ;
+    }
+    nav+*{
+        margin-top: 74px;
+    }
+    header{
+        min-height: calc(100% - 74px);
+    }
+    .testimonials{
+        margin-top: 80px;
+    }
+    footer{
+        margin-top: 80px;
+    }
+
+}
+@media only screen and (max-width: 767.98px){
+
+    header h1{
+        font-size: 3rem;
+    }
+    section{
+        padding-top: 70px ;
+    }
+    .testimonials{
+        margin-top: 70px;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    .advantages .benefits{
+        justify-content: flex-start;
+    }
+    .advantages .benefits ._item{
+        margin:0.5rem;
+        flex-basis: calc(50% - 1rem);
+        padding: 1rem;
+    }
+    .order-title{
+        margin: 1rem 0;
+    }
+}
+@media only screen and (max-width: 567.98px ) {
+
+    nav .logo img{
+        height: 25px;
+    }
+    nav a.tel{
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+    header{
+        text-align: center;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    footer ul{
+        flex-direction: column;
+    }
+    footer ul li{
+        padding:0.5rem 0;
+    }
+
+    .content .data ._item,
+    .small-container .data ._item,
+    .medium-container .data ._item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content .data ._item{
+        align-items: flex-start;
+    }
+
+}
+@media only screen and (max-width: 1199.98px) and (min-width: 992px){
+    .advantages .benefits ._item{
+        flex-basis: 40%;
+        margin:1rem;
+    }
+    nav .menu li a{
+        font-size: 16px;
+    }
+
+}
